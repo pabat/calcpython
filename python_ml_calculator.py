@@ -36,7 +36,7 @@ Please type in the math operation you would like to complete:
 def again():
     calc_again = input('''
 Do you want to calculate again?
-Please type Y for YES or N for NO.
+y/n?.
 ''')
 
     if calc_again.upper() == 'Y':
